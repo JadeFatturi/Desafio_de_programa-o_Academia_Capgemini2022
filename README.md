@@ -71,5 +71,6 @@ ovo
 ```
 
 ### _Como resolvi?_ 
-Para a última questão usei da linguagem Java e está nesse repositório no caminho: desafio de programação - Academia_Capgemini2022, na pasta src-> questão03 está todo o código fonte desenvolvido. Para está questão resolvi como se fosse solicitado para o usuário, através do console, para que digite uma palavra qualquer e assim no console aparece a resolução da questão:
+Para a última questão usei da linguagem Java e está nesse repositório no caminho: desafio de programação - Academia_Capgemini2022, na pasta src-> questão03 está todo o código fonte desenvolvido. Para está questão resolvi como se fosse solicitado para o usuário, através do console, para que digite uma palavra qualquer e assim no console aparece a resolução da questão.
 
+*Obrigada pela visita!*
