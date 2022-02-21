@@ -44,9 +44,9 @@ public class Resolução02 {
 		confirmPassword = input.next();
 
 		if (inputPassword.matches(confirmPassword)) {
-			System.out.println("As senhas são iguais!");
+			System.out.println("Senha Cadastrada com sucesso");
 		} else {
-			System.out.println("As senhas não são iguais");
+			System.out.println("Cadastre Novamente");
 		}
 
 	}
@@ -68,18 +68,18 @@ public class Resolução02 {
 			valid = false;
 		}
 		String numbers = "(.*[0-9].*)";
-		if (password.matches(numbers)) {
+		if (!password.matches(numbers)) {
 			System.out.println("A senha deve conter pelo menos um dígito");
 			valid = false;
 		}
-		String specialChars = "(!@,#$^&*()-+)";
+		String specialChars = "(^(?:(?=.*[!@#$%^&*()-+]).*)$)";
 		if (!password.matches(specialChars)) {
 			System.out.println("A senha deve conter pelo menos um destes caracteres especiais: !@#$%^&*()-+ ");
 			valid = false;
 		}
 
 		if (valid) {
-			System.out.println("As senhas são iguais!");
+			System.out.println("Senha aceita!");
 
 		}
 	}
